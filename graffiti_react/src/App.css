@@ -1,0 +1,48 @@
+
+body {
+  background-image: url("./bus1.jpg");
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 270px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 10px ;
+}
+h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size:24px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 8px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
